@@ -1,0 +1,22 @@
+﻿{
+  "name": "AI Human Identifier",
+  "short_name": "Human AI",
+  "description": "AI Boy, Girl, Man, Woman, Baby and Age Detector",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#07121f",
+  "theme_color": "#00bfff",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

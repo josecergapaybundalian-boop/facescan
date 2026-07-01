@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width,initial-scale=1.0">
+
+<title>AI Boy Girl Man Woman Detector</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+<script defer src="https://cdn.jsdelivr.net/npm/face-api.js"></script>
+
+<script defer src="script.js"></script>
+
+</head>
+
+<body>
+
+<h1>
+
+AI Human Identifier
+
+</h1>
+
+<div class="camera">
+
+<video
+id="video"
+autoplay
+muted
+playsinline>
+</video>
+
+<canvas id="canvas"></canvas>
+
+</div>
+
+<div class="info">
+
+<h2 id="status">
+
+Loading AI...
+
+</h2>
+
+<p>
+
+Category:
+
+<span id="category">
+
+--
+
+</span>
+
+</p>
+
+<p>
+
+Age:
+
+<span id="age">
+
+--
+
+</span>
+
+</p>
+
+<p>
+
+Gender:
+
+<span id="gender">
+
+--
+
+</span>
+
+</p>
+
+<p>
+
+Confidence:
+
+<span id="confidence">
+
+--
+
+</span>
+
+</p>
+
+</div>
+<script>
+
+if("serviceWorker" in navigator){
+
+navigator.serviceWorker.register("service-worker.js");
+
+}
+
+</script>
+</body>
+
+</html>
